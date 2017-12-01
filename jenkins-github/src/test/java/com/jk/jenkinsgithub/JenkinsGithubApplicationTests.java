@@ -11,7 +11,7 @@ public class JenkinsGithubApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		System.out.println("##### Testing jenkins github integration");
+		System.out.println("##### Testing jenkins github integration - modified");
 	}
 
 }
