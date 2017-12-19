@@ -1,5 +1,5 @@
 node("docker") {
-    docker.withRegistry('<<your-docker-registry>>', '<<your-docker-registry-credentials-id>>') {
+    docker.withRegistry('https://registry.hub.docker.com') {
     
         git url: "https://github.com/kaashyapa32/test-jk.git", credentialsId: 'kaashyapa32'
     
